@@ -1,57 +1,53 @@
 /* Styles de base */
 body {
     font-family: Arial, sans-serif;
-    background-color: #0000CC; /* bleu un peu plus foncé */
-    text-align: center;
+    background-color: #ADD8E6; /* bleu clair pour le fond */
+    text-align: left;
     margin: 0;
     padding: 0;
     position: relative; /* pour placer le texte en bas à droite */
 }
 
 header {
-    background-color: #000099; /* bleu un peu plus foncé que le fond */
+    background-color: #A0CFEF; /* un tout petit peu plus foncé que le fond */
     color: white; /* texte blanc pour l'en-tête */
-    padding: 20px 0;
+    padding: 20px;
 }
 
 h1 {
     margin: 0;
+    padding-left: 10px; /* collé à gauche */
 }
 
 main {
     padding: 20px;
-    text-align: left; /* texte aligné à gauche */
 }
 
 p {
     color: #000000; /* texte noir */
-    font-size: 24px; /* plus grand */
+    font-size: 28px; /* plus grand */
     font-weight: bold; /* gras */
-    margin-left: 10px; /* collé à gauche */
+    margin-left: 10px; /* aligné à gauche */
 }
 
 a {
     display: inline-block;
-    margin: 20px 0 0 10px; /* un peu en dessous du paragraphe, aligné avec le texte */
+    margin: 10px 0 0 10px; /* juste en dessous du paragraphe */
     font-weight: bold;
     font-size: 18px;
-
-    /* Multicolore pour le lien Instagram */
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FF69B4; /* rose */
     text-decoration: none;
     transition: transform 0.3s;
 }
 
 a:hover {
-    transform: scale(1.1); /* léger effet au survol */
+    transform: scale(1.1);
     text-decoration: underline;
 }
 
 img {
     display: block;
-    max-width: 400px; /* un peu plus grande */
+    max-width: 450px; /* un tout petit peu plus grande */
     margin: 20px auto; /* centrée horizontalement */
     border: 3px solid #00FF00; /* bordure verte */
     border-radius: 10px;
