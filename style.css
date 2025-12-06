@@ -1,15 +1,15 @@
 /* Styles de base */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f0ff;
+    background-color: #0000FF; /* bleu pour le fond de la page */
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #FFFF00;    
-    color: #FFFFFF;
+    background-color: #FFD700; /* jaune pour l'en-tête */
+    color: black; /* texte noir sur fond jaune pour la lisibilité */
     padding: 20px 0;
 }
 
@@ -21,34 +21,39 @@ main {
     padding: 20px;
 }
 
-img {
-    max-width: 300px;
-    border: 3px solid #4CAF50;
-    border-radius: 50#;
-    margin: 20px 0;
+p {
+    color: #FFFFFF; /* blanc pour le texte du paragraphe */
+    font-size: 18px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+
+    /* Multicolore pour le lien Instagram */
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
     transition: transform 0.3s;
 }
 
-img:hover {
-    transform: scale(1.05);
+a:hover {
+    transform: scale(1.1); /* léger effet au survol */
+    text-decoration: underline;
 }
 
-button {
-    background-color: #FFFF00;
-    color: #64b7f6;
-    border: #FFFFFF;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #45a049;
+img {
+    max-width: 300px;
+    border: 3px solid #FFFFFF; /* bordure blanche */
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 footer {
-    background-color: #333;
+    background-color: #FF69B4; /* rose pour le pied de page */
     color: white;
     padding: 10px 0;
     margin-top: 20px;
